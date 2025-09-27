@@ -1,0 +1,18 @@
+diff --git a//dev/null b/BillingApp/BillingApp.csproj
+index 0000000000000000000000000000000000000000..cc6380c938673c1b365e6dbe41163da700e589d6 100644
+--- a//dev/null
++++ b/BillingApp/BillingApp.csproj
+@@ -0,0 +1,13 @@
++<Project Sdk="Microsoft.NET.Sdk">
++  <PropertyGroup>
++    <OutputType>WinExe</OutputType>
++    <TargetFramework>net7.0-windows</TargetFramework>
++    <UseWPF>true</UseWPF>
++    <Nullable>enable</Nullable>
++    <ImplicitUsings>enable</ImplicitUsings>
++  </PropertyGroup>
++  <ItemGroup>
++    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
++    <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.15" />
++  </ItemGroup>
++</Project>
